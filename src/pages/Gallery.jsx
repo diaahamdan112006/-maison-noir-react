@@ -31,8 +31,8 @@ function Gallery() {
 
   return (
     <>
-      <section className="relative h-80 flex items-center justify-center bg-primary text-accent pt-20">
-        <div className="absolute inset-0 bg-black/40"></div>
+      <section className="relative h-80 flex items-center justify-center bg-primary text-accent pt-20 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1920')"}}>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 text-center">
           <span className="text-secondary text-sm font-jost tracking-widest">VISUAL JOURNEY</span>
           <h1 className="font-cormorant text-5xl mt-2">Gallery</h1>

@@ -10,8 +10,8 @@ function Contact() {
 
   return (
     <>
-      <section className="relative h-80 flex items-center justify-center bg-primary text-accent pt-20">
-        <div className="absolute inset-0 bg-black/40"></div>
+      <section className="relative h-80 flex items-center justify-center bg-primary text-accent pt-20 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1920')"}}>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 text-center">
           <span className="text-secondary text-sm font-jost tracking-widest">GET IN TOUCH</span>
           <h1 className="font-cormorant text-5xl mt-2">Contact & Reservations</h1>
@@ -127,8 +127,11 @@ function Contact() {
         </div>
       </section>
 
-      <div className="bg-gray-200 py-12 text-center font-jost">
-        Rue Gouraud, Gemmayzeh, Beirut, Lebanon
+      <div className="h-64 bg-cover bg-center flex items-center justify-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1200')"}}>
+        <div className="bg-primary/80 text-accent py-8 px-12 text-center">
+          <p className="font-cormorant text-2xl">Rue Gouraud, Gemmayzeh, Beirut, Lebanon</p>
+          <p className="font-jost text-sm mt-2">+961 1 234 567 | reservations@maisonnoir.com</p>
+        </div>
       </div>
     </>
   )

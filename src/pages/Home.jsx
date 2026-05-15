@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
-      <section className="relative h-screen flex items-center justify-center bg-primary text-accent">
-        <div className="absolute inset-0 bg-black/40"></div>
+      <section className="relative h-screen flex items-center justify-center bg-primary text-accent bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920')"}}>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 text-center px-6 max-w-4xl">
           <p className="font-jost text-sm tracking-widest mb-4">EST. 2010 - BEIRUT, LEBANON</p>
           <h1 className="font-cormorant text-5xl md:text-7xl mb-6 leading-tight">
@@ -38,9 +38,9 @@ function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { tag: 'Chef\'s Special', name: 'Truffle Risotto', desc: 'Arborio rice, black truffle shavings, aged parmesan and a drizzle of white truffle oil.', price: '$38', img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600' },
-              { tag: 'Fan Favourite', name: 'Wagyu Tenderloin', desc: 'A5 Wagyu with roasted bone marrow, charred leek puree and red wine jus.', price: '$75', img: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600' },
-              { tag: 'Dessert', name: 'Dark Chocolate Fondant', desc: 'Valrhona chocolate, salted caramel core, vanilla bean ice cream.', price: '$18', img: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600' }
+              { tag: 'Chef\'s Special', name: 'Truffle Risotto', desc: 'Arborio rice, black truffle shavings, aged parmesan and a drizzle of white truffle oil.', price: '$38', img: 'https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600' },
+              { tag: 'Fan Favourite', name: 'Wagyu Tenderloin', desc: 'A5 Wagyu with roasted bone marrow, charred leek puree and red wine jus.', price: '$75', img: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?w=600' },
+              { tag: 'Dessert', name: 'Dark Chocolate Fondant', desc: 'Valrhona chocolate, salted caramel core, vanilla bean ice cream.', price: '$18', img: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600' }
             ].map((dish, i) => (
               <div key={i} className="bg-white shadow-lg">
                 <div className="h-64 bg-cover bg-center" style={{backgroundImage: `url(${dish.img})`}}></div>

@@ -1,8 +1,8 @@
 function About() {
   return (
     <>
-      <section className="relative h-80 flex items-center justify-center bg-primary text-accent pt-20">
-        <div className="absolute inset-0 bg-black/40"></div>
+      <section className="relative h-80 flex items-center justify-center bg-primary text-accent pt-20 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920')"}}>
+        <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 text-center">
           <span className="text-secondary text-sm font-jost tracking-widest">OUR STORY</span>
           <h1 className="font-cormorant text-5xl mt-2">About Maison Noir</h1>
@@ -17,7 +17,7 @@ function About() {
             <p className="font-jost mb-4">Our philosophy is simple: respect the ingredient, honor tradition, and dare to innovate. Every dish tells a story-of the farmers we know by name, of techniques passed down through generations, and of the city that continues to inspire us.</p>
             <p className="font-jost">Today, Maison Noir welcomes guests from around the world, offering an intimate escape where exceptional food meets warm Lebanese hospitality.</p>
           </div>
-          <div className="h-96 bg-gray-300"></div>
+          <div className="h-96 bg-cover bg-center rounded" style={{backgroundImage: "url('https://images.unsplash.com/photo-1550966871-3ed3cdb51f3a?w=800')"}}></div>
         </div>
       </section>
 
@@ -47,7 +47,7 @@ function About() {
 
       <section className="py-20 px-6 bg-accent text-center">
         <div className="max-w-3xl mx-auto">
-          <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6"></div>
+          <div className="w-32 h-32 rounded-full mx-auto mb-6 bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=200')"}}></div>
           <h3 className="font-cormorant text-3xl">Chef Shaker Hamdan</h3>
           <p className="font-jost text-secondary mb-4">Head Chef & Founder</p>
           <p className="font-jost mb-4">Born in Beirut and trained at Le Cordon Bleu Paris, Chef Shaker Hamdan spent a decade refining his craft in Michelin-starred kitchens across Europe before returning home to transform Lebanon's culinary landscape.</p>
