@@ -132,23 +132,8 @@ npm run dev
 
 ## Deployment
 
-### GitHub Pages
-```bash
-npm install -D gh-pages
-npm run build
-npm run deploy
-```
-
-### Vercel
-1. Push code to GitHub
-2. Import repository on [Vercel](https://vercel.com)
-3. Deploy automatically
-
-### Netlify
-1. Push code to GitHub
-2. Import repository on [Netlify](https://netlify.com)
-3. Build command: `npm run build`
-4. Publish directory: `dist`
+The site is deployed on **GitHub Pages**:
+🔗 [https://diaahamdan112006.github.io/-maison-noir-react/](https://diaahamdan112006.github.io/-maison-noir-react/)
 
 ## Git Commit History
 
@@ -159,4 +144,4 @@ git log --oneline
 
 ## Screenshots
 
-(Add screenshots of your deployed site here)
+(Open the deployed site and add screenshots of each page here)
