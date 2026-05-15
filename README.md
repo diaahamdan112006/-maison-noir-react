@@ -2,6 +2,8 @@
 
 A ReactJS frontend web application for Maison Noir, a fictional fine dining restaurant in Beirut, Lebanon. This project is Phase 2 of the Web Programming course project, building upon the static HTML/CSS site from Phase 1.
 
+🔗 **GitHub Repository**: [diaahamdan112006/-maison-noir-react](https://github.com/diaahamdan112006/-maison-noir-react)
+
 ## Project Description
 
 Maison Noir is a luxury fine dining restaurant website featuring French-Lebanese cuisine. The website showcases the restaurant's story, menu, gallery, and provides online reservation functionality.
@@ -158,10 +160,3 @@ git log --oneline
 ## Screenshots
 
 (Add screenshots of your deployed site here)
-
-## Author
-
-**Shaker Hamdan**  
-Student ID: [Your ID]  
-Course: CSCI390 - Web Programming  
-Date: May 2026
