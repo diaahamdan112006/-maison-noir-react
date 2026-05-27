@@ -2,7 +2,7 @@
 
 A ReactJS frontend web application for Maison Noir, a fictional fine dining restaurant in Beirut, Lebanon. This project is Phase 2 of the Web Programming course project, building upon the static HTML/CSS site from Phase 1.
 
-🔗 **GitHub Repository**: [diaahamdan112006/-maison-noir-react](https://github.com/diaahamdan112006/-maison-noir-react)
+🔗 **GitHub Repository**:
 
 ## Project Description
 
@@ -122,7 +122,7 @@ npm install
 npm run dev
 ```
 
-4. Open `http://localhost:5173` in your browser
+4. Open `http://localhost:port>1024` in your browser
 
 ## Available Scripts
 
@@ -133,7 +133,7 @@ npm run dev
 ## Deployment
 
 The site is deployed on **GitHub Pages**:
-🔗 [https://diaahamdan112006.github.io/-maison-noir-react/](https://diaahamdan112006.github.io/-maison-noir-react/)
+🔗 https//:diyaaa
 
 ## Git Commit History
 
