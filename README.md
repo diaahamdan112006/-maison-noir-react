@@ -134,6 +134,7 @@ npm run dev
 
 The site is deployed on **GitHub Pages**:
 🔗 [https://52330825-cmyk.github.io/-maison_noir_react/](https://52330825-cmyk.github.io/-maison_noir_react/)
+**Note:** Also available via GitHub Classroom at the submitted repository link.
 
 ## Git Commit History
 
