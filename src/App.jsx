@@ -9,7 +9,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <BrowserRouter basename="/-maison_noir_react">
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
